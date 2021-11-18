@@ -10,3 +10,4 @@
   * [Перегрузка функций](funkcii/peregruzka-funkcii.md)
   * [Полиморфизм и Generic](funkcii/polimorfizm-i-generic.md)
   * [Ограниченный полиморфизм](funkcii/ogranichennyi-polimorfizm.md)
+* [Интерфейсы](interfeisy.md)

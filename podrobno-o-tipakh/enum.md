@@ -33,6 +33,8 @@ let myFirstLanguage = Language.Russian // Language
 let mySecondLanguage = Language['English'] // Language
 ```
 
+### несколько деклараций
+
 Можно разделить перечисление на несколько деклараций, и TypeScript автоматически произведет их слияние. Будьте осторожны при разделении перечисления, TypeScript может вывести значения только для одной из деклараций, поэтому лучше всего в таком случае явно присвоить значение каждому члену перечисления:
 
 ```
@@ -40,6 +42,7 @@ enum Language {
     English = 0,
     Spanish = 1
 }
+
 enum Language {
     Russian = 2
 }
